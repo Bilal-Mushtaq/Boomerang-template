@@ -658,6 +658,7 @@ footer {
     font-size: 20px;
     line-height: 28px;
     padding-bottom: 2rem;
+    color: black;
   }
   .top-r button {
     width: 50%;
@@ -761,7 +762,7 @@ footer {
   }
   .top-l img {
     width: 135%;
-    margin-bottom: 1rem;
+    margin-bottom: 8rem;
   }
   .social-links img {
     width: 2rem;
@@ -836,6 +837,7 @@ footer {
   }
   .top-l img {
     width: 142%;
+    margin-bottom: 2rem;
   }
   .txt-section h1 {
     width: 90%;
