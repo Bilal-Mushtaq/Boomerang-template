@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-.body, html {
+.body,
+html {
   overflow-x: hidden;
 }
 .main {
@@ -377,6 +378,21 @@ footer {
     line-height: 36px;
   }
 }
+
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+  .top-sec-content {
+    padding-top: 0;
+    gap: 2rem;
+  }
+  .top-r h1 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .top-r h4 {
+    padding-bottom: 1rem;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   nav img {
     left: 15%;
@@ -467,14 +483,18 @@ footer {
     height: 400px;
     padding-bottom: 18%;
   }
+  .top-r {
+    margin-top: 0rem;
+  }
   .top-r h1 {
     font-size: 30px;
-    line-height: 42px;
+    line-height: 38px;
   }
   .top-r h4 {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 24px;
     font-weight: 600;
+    padding-bottom: 1rem;
   }
   .top-l {
     width: 34%;
@@ -521,9 +541,13 @@ footer {
     width: 270px;
     height: 28px;
   }
+  .top-section {
+    background: linear-gradient(192.45deg, #0774c7 15.87%, #055da0 90.49%);
+  }
   .top-sec-content {
     height: 300px;
     padding-bottom: 15%;
+    background: none;
   }
   .top-r h1 {
     font-size: 24px;
@@ -548,6 +572,9 @@ footer {
   .top-r button h5 {
     font-size: 15px;
     font-weight: 600;
+  }
+  .txt-section {
+    margin-top: 2rem;
   }
   .txt-section h1 {
     font-weight: 600;
@@ -639,6 +666,9 @@ footer {
 }
 
 @media only screen and (max-width: 680px) {
+  .top-section {
+    background: none;
+  }
   .top-sec-content {
     flex-direction: column;
     background: none;
@@ -671,6 +701,9 @@ footer {
   }
   .top-l video {
     margin-top: 2rem;
+  }
+  .txt-section {
+    margin-top: 1rem;
   }
   .txt-section h1 {
     width: 85%;
@@ -748,7 +781,7 @@ footer {
     height: 22px;
   }
   .top-r h1 {
-    padding-top: 4rem;
+    padding-top: 6rem;
   }
   .top-r button {
     width: 80%;
@@ -841,6 +874,9 @@ footer {
   .top-l video {
     width: 130%;
     margin-bottom: 1rem;
+  }
+  .txt-section {
+    margin-top: 0rem;
   }
   .txt-section h1 {
     width: 90%;
